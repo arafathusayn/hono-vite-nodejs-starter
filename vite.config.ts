@@ -15,6 +15,7 @@ export default defineConfig({
       name: "Index",
       fileName: "index",
     },
+    sourcemap: true,
     ssr: true,
   },
 });
