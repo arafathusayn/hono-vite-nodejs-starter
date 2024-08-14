@@ -1,0 +1,19 @@
+{
+  "name": "hono-vite-nodejs-starter",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "npm i && npm run build && node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.12.0",
+    "hono": "^4.5.5"
+  },
+  "devDependencies": {
+    "@hono/vite-dev-server": "^0.14.0",
+    "@types/node": "^20.11.17",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.0"
+  }
+}
